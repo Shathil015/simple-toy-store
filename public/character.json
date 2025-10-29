@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "characterName": "Super Mario",
+    "description": "Jump into adventure with Mario and friends! Toys inspired by the classic Nintendo universe.",
+    "toys": [
+      {
+        "id": 101,
+        "name": "Mario Action Figure",
+        "brand": "Nintendo",
+        "price": 19.99,
+        "rating": 4.8,
+        "stock": 20,
+        "image": "https://i.ibb.co/6PZB7Dk/mario-figure.jpg",
+        "description": "A detailed 6-inch Mario action figure with moveable joints.",
+        "character": "Super Mario"
+      },
+      {
+        "id": 102,
+        "name": "Mario Kart Racer",
+        "brand": "Hot Wheels",
+        "price": 12.49,
+        "rating": 4.7,
+        "stock": 35,
+        "image": "https://i.ibb.co/6Jjm0pK/mario-kart.jpg",
+        "description": "Mini racing car featuring Mario in his iconic kart design.",
+        "character": "Super Mario"
+      },
+      {
+        "id": 103,
+        "name": "Luigi Plush Toy",
+        "brand": "CuddleSoft",
+        "price": 16.99,
+        "rating": 4.6,
+        "stock": 25,
+        "image": "https://i.ibb.co/7JkZyZF/luigi-plush.jpg",
+        "description": "Soft and cuddly Luigi plush toy made of premium cotton.",
+        "character": "Super Mario"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "characterName": "Spider-Man",
+    "description": "Unleash your inner hero with Spider-Man action figures, masks, and gadgets.",
+    "toys": [
+      {
+        "id": 201,
+        "name": "Spider-Man Web Shooter",
+        "brand": "Marvel",
+        "price": 29.99,
+        "rating": 4.9,
+        "stock": 18,
+        "image": "https://i.ibb.co/2Pf3Fvh/spiderman-web-shooter.jpg",
+        "description": "Interactive web-shooter toy with refillable foam web fluid.",
+        "character": "Spider-Man"
+      },
+      {
+        "id": 202,
+        "name": "Spider-Man Action Figure",
+        "brand": "Hasbro",
+        "price": 22.99,
+        "rating": 4.8,
+        "stock": 30,
+        "image": "https://i.ibb.co/hB6FvDd/spiderman-figure.jpg",
+        "description": "Articulated Spider-Man figure with removable mask and web accessories.",
+        "character": "Spider-Man"
+      },
+      {
+        "id": 203,
+        "name": "Spider-Man Mask",
+        "brand": "Marvel Kids",
+        "price": 14.99,
+        "rating": 4.5,
+        "stock": 50,
+        "image": "https://i.ibb.co/7ztkzhd/spiderman-mask.jpg",
+        "description": "Lightweight mask for kids to role-play their favorite superhero.",
+        "character": "Spider-Man"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "characterName": "Frozen (Disney)",
+    "description": "Magical toys inspired by Elsa, Anna, and Olaf from Disney’s Frozen.",
+    "toys": [
+      {
+        "id": 301,
+        "name": "Elsa Singing Doll",
+        "brand": "Disney",
+        "price": 34.99,
+        "rating": 4.9,
+        "stock": 22,
+        "image": "https://i.ibb.co/2t4vJbN/elsa-doll.jpg",
+        "description": "Elsa doll that sings 'Let It Go' with glowing blue dress.",
+        "character": "Frozen"
+      },
+      {
+        "id": 302,
+        "name": "Olaf Plush Toy",
+        "brand": "CuddleSoft",
+        "price": 18.49,
+        "rating": 4.7,
+        "stock": 40,
+        "image": "https://i.ibb.co/3zyZ8jK/olaf-plush.jpg",
+        "description": "Adorable Olaf plush perfect for cuddling and playtime.",
+        "character": "Frozen"
+      },
+      {
+        "id": 303,
+        "name": "Frozen Castle Playset",
+        "brand": "Disney",
+        "price": 59.99,
+        "rating": 4.8,
+        "stock": 15,
+        "image": "https://i.ibb.co/vZv5bJb/frozen-castle.jpg",
+        "description": "Interactive castle playset featuring lights, sounds, and Elsa & Anna figurines.",
+        "character": "Frozen"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "characterName": "Batman",
+    "description": "Toys and collectibles inspired by Gotham’s legendary hero.",
+    "toys": [
+      {
+        "id": 401,
+        "name": "Batman Action Figure",
+        "brand": "DC Comics",
+        "price": 24.99,
+        "rating": 4.8,
+        "stock": 28,
+        "image": "https://i.ibb.co/WgjfRHs/batman-figure.jpg",
+        "description": "12-inch Batman action figure with movable cape and armor suit.",
+        "character": "Batman"
+      },
+      {
+        "id": 402,
+        "name": "Batmobile Car",
+        "brand": "Hot Wheels",
+        "price": 29.99,
+        "rating": 4.7,
+        "stock": 18,
+        "image": "https://i.ibb.co/fH5Y8Hk/batmobile.jpg",
+        "description": "Die-cast Batmobile model with detailed interior and rubber tires.",
+        "character": "Batman"
+      },
+      {
+        "id": 403,
+        "name": "Batman Mask",
+        "brand": "DC Kids",
+        "price": 14.99,
+        "rating": 4.5,
+        "stock": 40,
+        "image": "https://i.ibb.co/TgZQ5qv/batman-mask.jpg",
+        "description": "Adjustable Batman mask for costume play and imagination.",
+        "character": "Batman"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "characterName": "Peppa Pig",
+    "description": "Fun and friendly toys from the world of Peppa Pig for preschoolers.",
+    "toys": [
+      {
+        "id": 501,
+        "name": "Peppa Pig Family Set",
+        "brand": "Hasbro",
+        "price": 19.99,
+        "rating": 4.6,
+        "stock": 45,
+        "image": "https://i.ibb.co/FhVqsnP/peppa-family.jpg",
+        "description": "Peppa and her family figurines for storytelling and roleplay.",
+        "character": "Peppa Pig"
+      },
+      {
+        "id": 502,
+        "name": "Peppa’s House Playset",
+        "brand": "Hasbro",
+        "price": 34.99,
+        "rating": 4.7,
+        "stock": 20,
+        "image": "https://i.ibb.co/W5J5LkS/peppa-house.jpg",
+        "description": "Interactive house playset with furniture and Peppa Pig figures.",
+        "character": "Peppa Pig"
+      },
+      {
+        "id": 503,
+        "name": "George’s Dinosaur Plush",
+        "brand": "CuddleSoft",
+        "price": 15.99,
+        "rating": 4.8,
+        "stock": 30,
+        "image": "https://i.ibb.co/K9W4Dtx/george-dino.jpg",
+        "description": "Soft green dinosaur plush — George’s favorite toy from the show.",
+        "character": "Peppa Pig"
+      }
+    ]
+  }
+]

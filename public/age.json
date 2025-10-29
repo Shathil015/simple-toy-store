@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "categoryName": "0-2 Years (Infant Toys)",
+    "description": "Soft, safe, and sensory toys that help babies develop motor skills and curiosity.",
+    "toys": [
+      {
+        "id": 101,
+        "name": "Plush Teddy Bear",
+        "brand": "CuddleSoft",
+        "price": 15.99,
+        "rating": 4.8,
+        "stock": 25,
+        "image": "https://i.ibb.co/1RQHqCJ/teddy-bear.jpg",
+        "description": "A soft plush teddy bear perfect for snuggling and comfort.",
+        "ageGroup": "0-2 years"
+      },
+      {
+        "id": 102,
+        "name": "Rattle Set",
+        "brand": "BabyJoy",
+        "price": 9.49,
+        "rating": 4.6,
+        "stock": 40,
+        "image": "https://i.ibb.co/N1q4kzH/rattle-set.jpg",
+        "description": "Colorful rattles with gentle sounds to stimulate baby senses.",
+        "ageGroup": "0-2 years"
+      },
+      {
+        "id": 103,
+        "name": "Stacking Rings",
+        "brand": "TinySteps",
+        "price": 12.5,
+        "rating": 4.9,
+        "stock": 35,
+        "image": "https://i.ibb.co/Mgx7MS8/stacking-rings.jpg",
+        "description": "Bright stacking rings that help babies learn colors and hand-eye coordination.",
+        "ageGroup": "0-2 years"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "categoryName": "3-5 Years (Preschool Toys)",
+    "description": "Creative and learning toys to help preschoolers explore and build imagination.",
+    "toys": [
+      {
+        "id": 201,
+        "name": "Building Blocks Set",
+        "brand": "BuildSmart",
+        "price": 24.99,
+        "rating": 4.7,
+        "stock": 50,
+        "image": "https://i.ibb.co/NypgwR1/building-blocks.jpg",
+        "description": "A colorful set of blocks that encourages creativity and problem-solving.",
+        "ageGroup": "3-5 years"
+      },
+      {
+        "id": 202,
+        "name": "Mini Kitchen Set",
+        "brand": "CookyKids",
+        "price": 29.99,
+        "rating": 4.5,
+        "stock": 30,
+        "image": "https://i.ibb.co/55Vx4wH/kitchen-set.jpg",
+        "description": "Interactive cooking playset to inspire pretend play and social skills.",
+        "ageGroup": "3-5 years"
+      },
+      {
+        "id": 203,
+        "name": "Musical Drum Set",
+        "brand": "BeatBuddies",
+        "price": 22.49,
+        "rating": 4.3,
+        "stock": 28,
+        "image": "https://i.ibb.co/m8CzQZt/drum-set.jpg",
+        "description": "Colorful drum kit that helps kids explore rhythm and sound.",
+        "ageGroup": "3-5 years"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "categoryName": "6-8 Years (Explorer Toys)",
+    "description": "STEM and adventure toys to challenge curiosity and learning.",
+    "toys": [
+      {
+        "id": 301,
+        "name": "Robot Building Kit",
+        "brand": "TechToys",
+        "price": 39.99,
+        "rating": 4.9,
+        "stock": 15,
+        "image": "https://i.ibb.co/sFRGJqx/robot-kit.jpg",
+        "description": "STEM toy for kids to build and code their own simple robots.",
+        "ageGroup": "6-8 years"
+      },
+      {
+        "id": 302,
+        "name": "Adventure Puzzle Map",
+        "brand": "BrainQuest",
+        "price": 14.75,
+        "rating": 4.6,
+        "stock": 32,
+        "image": "https://i.ibb.co/JpKkc5D/map-puzzle.jpg",
+        "description": "World map puzzle to teach geography and problem-solving.",
+        "ageGroup": "6-8 years"
+      },
+      {
+        "id": 303,
+        "name": "Remote Control Car",
+        "brand": "SpeedZone",
+        "price": 34.99,
+        "rating": 4.8,
+        "stock": 20,
+        "image": "https://i.ibb.co/0J0vQtN/remote-car.jpg",
+        "description": "Fast and durable RC car with rechargeable battery and LED lights.",
+        "ageGroup": "6-8 years"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "categoryName": "9+ Years (Creative & Tech Toys)",
+    "description": "Challenging and tech-driven toys for older kids to experiment and create.",
+    "toys": [
+      {
+        "id": 401,
+        "name": "DIY Drone Kit",
+        "brand": "FlyPro",
+        "price": 59.99,
+        "rating": 4.7,
+        "stock": 12,
+        "image": "https://i.ibb.co/2M2bPqx/drone-kit.jpg",
+        "description": "Build-your-own drone kit to learn basic electronics and flight control.",
+        "ageGroup": "9+ years"
+      },
+      {
+        "id": 402,
+        "name": "3D Printing Pen",
+        "brand": "CraftLab",
+        "price": 49.99,
+        "rating": 4.5,
+        "stock": 18,
+        "image": "https://i.ibb.co/WpWw8mp/3d-pen.jpg",
+        "description": "Create 3D models and art with this safe, fun, and educational pen.",
+        "ageGroup": "9+ years"
+      },
+      {
+        "id": 403,
+        "name": "Coding Robot",
+        "brand": "CodePlay",
+        "price": 69.99,
+        "rating": 4.9,
+        "stock": 10,
+        "image": "https://i.ibb.co/hKzTLLh/coding-robot.jpg",
+        "description": "Programmable robot toy that teaches logic, coding, and problem-solving.",
+        "ageGroup": "9+ years"
+      }
+    ]
+  }
+]
