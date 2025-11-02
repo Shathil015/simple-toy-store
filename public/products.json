@@ -1,26 +1,162 @@
 [
   {
-    "id": 1,
-    "title": "Baby Stroller",
-    "price": 120,
-    "image": "https://babybo.wpbingosite.com/wp-content/uploads/2020/04/product-1.jpg"
+    "id": "toy001",
+    "category_id": 1,
+    "name": "Musical Activity Walker",
+    "price": 35,
+    "image": "./images/71hyNeXpOZL._AC_SL1500_.jpg",
+    "description": "A colorful musical walker perfect for babies aged 1–3 to develop balance and motor skills."
   },
   {
-    "id": 2,
-    "title": "Soft Baby Blanket",
-    "price": 40,
-    "image": "https://babybo.wpbingosite.com/wp-content/uploads/2020/04/product-2.jpg"
+    "id": "toy002",
+    "category_id": 1,
+    "name": "Soft Alphabet Blocks",
+    "price": 20,
+    "image": "./images/2fbbfd66e08a907ba9f4f9d14d2a938e.jpg",
+    "description": "Soft, safe alphabet blocks that help toddlers learn letters and colors."
   },
   {
-    "id": 3,
-    "title": "Baby Shoes",
+    "id": "toy003",
+    "category_id": 1,
+    "name": "Mini Basketball Hoop Set",
     "price": 25,
-    "image": "https://babybo.wpbingosite.com/wp-content/uploads/2020/04/product-3.jpg"
+    "image": "./images/6212797op.jpg",
+    "description": "Fun and safe indoor basketball hoop for kids aged 4–6 years."
   },
   {
-    "id": 4,
-    "title": "Baby Bottle Set",
+    "id": "toy004",
+    "category_id": 2,
+    "name": "Spider-Man Web Shooter",
+    "price": 28,
+    "image": "./images/648221f9a3e8f64bd43fbd55-lego-friends-friendship-tree-house-41703.jpg",
+    "description": "Shoot webs like your favorite superhero Spider-Man with this fun action toy."
+  },
+  {
+    "id": "toy005",
+    "category_id": 2,
+    "name": "Frozen Elsa Doll",
     "price": 30,
-    "image": "https://babybo.wpbingosite.com/wp-content/uploads/2020/04/product-4.jpg"
+    "image": "./images/71hyNeXpOZL._AC_SL1500_.jpg",
+    "description": "Beautiful Elsa doll with dress and accessories from Disney's Frozen."
+  },
+  {
+    "id": "toy006",
+    "category_id": 2,
+    "name": "Avengers Iron Man Figure",
+    "price": 32,
+    "image": "./images/81aZ0KtrfVL._AC_SL1500_.jpg",
+    "description": "Highly detailed Iron Man action figure with sound and light effects."
+  },
+  {
+    "id": "toy007",
+    "category_id": 3,
+    "name": "LEGO City Police Station",
+    "price": 65,
+    "image": "./images/81j85CTxUhL._AC_UF1000,1000_QL80_.jpg",
+    "description": "Build your own LEGO police station with mini vehicles and officers."
+  },
+  {
+    "id": "toy008",
+    "category_id": 3,
+    "name": "Hot Wheels Racing Pack",
+    "price": 40,
+    "image": "./images/81ZGqsNWyPL._UF1000,1000_QL80_.jpg",
+    "description": "A 10-car set of high-speed Hot Wheels racers with track accessories."
+  },
+  {
+    "id": "toy009",
+    "category_id": 3,
+    "name": "Barbie Dreamhouse Set",
+    "price": 120,
+    "image": "./images/9b672e246424b70cbb6372250724824a.jpg_720x720q80.jpg",
+    "description": "The ultimate Barbie Dreamhouse with furniture, lights, and sound effects."
+  },
+  {
+    "id": "toy010",
+    "category_id": 4,
+    "name": "Kids Cartoon Hoodie",
+    "price": 18,
+    "image": "./images/cd0fab9d5f015d5527fc2dc545d8e308.jpg",
+    "description": "Soft cotton hoodie featuring popular cartoon characters."
+  },
+  {
+    "id": "toy011",
+    "category_id": 4,
+    "name": "Mini Sneakers for Boys",
+    "price": 22,
+    "image": "./images/d2c3a6374ed2c64e003a1fba848f6279.jpg",
+    "description": "Trendy mini sneakers designed for comfort and style for kids aged 3–6."
+  },
+  {
+    "id": "toy012",
+    "category_id": 4,
+    "name": "Princess Dress Set",
+    "price": 27,
+    "image": "./images/Darth_Vader_light_saber.jpg",
+    "description": "Sparkly princess dress perfect for parties and role play."
+  },
+  {
+    "id": "toy013",
+    "category_id": 5,
+    "name": "Ludo Board Game Deluxe",
+    "price": 15,
+    "image": "./images/de065e0a461c3357622ba8877d8c2f203cdbf5ff_28743_01.webp",
+    "description": "Classic Ludo board with bright colors and wooden pieces for family fun."
+  },
+  {
+    "id": "toy014",
+    "category_id": 5,
+    "name": "RC Monster Truck",
+    "price": 50,
+    "image": "./images/download (1).jpeg",
+    "description": "High-speed remote control monster truck for outdoor adventures."
+  },
+  {
+    "id": "toy015",
+    "category_id": 5,
+    "name": "./images/download.jpeg",
+    "price": 18,
+    "image": "https://images.puzzles.com/500-puzzle.jpg",
+    "description": "Challenge your mind with this colorful 500-piece puzzle for all ages."
+  },
+  {
+    "id": "toy016",
+    "category_id": 6,
+    "name": "Toy Industry Sales Reach Record in 2025",
+    "price": 0,
+    "image": "./images/images.jpeg",
+    "description": "Global toy sales in 2025 hit record highs thanks to innovative tech-based toys."
+  },
+  {
+    "id": "toy017",
+    "category_id": 6,
+    "name": "New Eco-Friendly Toys Announced by Mattel",
+    "price": 0,
+    "image": "./images/RainbowDash.png",
+    "description": "Mattel reveals new toys made from 100% recycled materials."
+  },
+  {
+    "id": "toy018",
+    "category_id": 6,
+    "name": "Bangladesh Toy Market Expands Rapidly",
+    "price": 0,
+    "image": "./images/d2c3a6374ed2c64e003a1fba848f6279.jpg",
+    "description": "Bangladesh’s local toy market sees massive growth driven by exports and demand."
+  },
+  {
+    "id": "toy019",
+    "category_id": 5,
+    "name": "UNO Card Game 2025 Edition",
+    "price": 12,
+    "image": "./images/81aZ0KtrfVL._AC_SL1500_.jpg",
+    "description": "Play the classic UNO card game with a new colorful 2025 edition."
+  },
+  {
+    "id": "toy020",
+    "category_id": 3,
+    "name": "Fisher-Price Learning Laptop",
+    "price": 45,
+    "image": "./images/Darth_Vader_light_saber.jpg",
+    "description": "Interactive learning laptop for preschool kids from Fisher-Price."
   }
 ]

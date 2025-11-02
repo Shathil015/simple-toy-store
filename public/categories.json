@@ -1,0 +1,31 @@
+[
+  {
+    "id": 0,
+    "name": "All Toys"
+  },
+
+  {
+    "id": 1,
+    "name": "Shop By Age"
+  },
+  {
+    "id": 2,
+    "name": "Shop By Character"
+  },
+  {
+    "id": 3,
+    "name": "Shop By Brands"
+  },
+  {
+    "id": 4,
+    "name": "Kid Fashion"
+  },
+  {
+    "id": 5,
+    "name": "Toy & Game"
+  },
+  {
+    "id": 6,
+    "name": "Latest News"
+  }
+]

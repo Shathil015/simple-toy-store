@@ -1,32 +1,31 @@
 import React from "react";
-import Navbar from "../../components/header/Navbar";
-import Banner from "../../components/main/Banner";
-import Cart from "../../components/main/Cart";
-import Footer from "../../components/footer/Footer";
 import { Outlet } from "react-router";
+import Header from "../../components/Header";
+import Banner from "../../components/Banner";
+import LeftAside from "../../components/homelayout/LeftAside";
+import RightAside from "../../components/homelayout/RightAside";
 
 const HomeLayout = () => {
   return (
     <div className="w-11/12 mx-auto my-3">
-      <section>
-        <header>
-          <Navbar></Navbar>
-        </header>
-      </section>
-      <section>
-        <main>
+      <header>
+        <Header></Header>
+        <section className="my-3">
           <Banner></Banner>
-          <Cart></Cart>
-        </main>
-      </section>
-      <section>
-        <Outlet></Outlet>
-      </section>
-      <section>
-        <footer>
-          <Footer></Footer>
-        </footer>
-      </section>
+        </section>
+      </header>
+      <main className="w-11/12 mx-auto my-3 grid grid-cols-12 ">
+        <aside className="col-span-3">
+          <LeftAside></LeftAside>
+        </aside>
+        <section className="col-span-6 ">
+          <Outlet></Outlet>
+        </section>
+
+        <aside className="col-span-3">
+          <RightAside></RightAside>
+        </aside>
+      </main>
     </div>
   );
 };
