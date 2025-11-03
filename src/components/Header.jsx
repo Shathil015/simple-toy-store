@@ -25,7 +25,7 @@ const Header = () => {
   );
   return (
     <div className="navbar bg-base-100 shadow-sm">
-      <div>{user && user.email}</div>
+      {/* <div>{user && user.email}</div> */}
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -58,7 +58,11 @@ const Header = () => {
         <ul className="menu menu-horizontal px-1 gap-5">{links}</ul>
       </div>
       <div className="navbar-end gap-5">
-        <img src={User} alt="" />
+        <img
+          className="w-12 rounded-full"
+          src={`${user ? user.photoURL : User}`}
+          alt=""
+        />
         {user ? (
           <button onClick={handleLogout} className="btn btn-secondary">
             LogOut
