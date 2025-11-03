@@ -12,6 +12,7 @@ const HomeLayout = () => {
   return (
     <div className="w-11/12 mx-auto my-3">
       <header>
+        {import.meta.env.VITE_name}
         <Header></Header>
         <section className="my-3">
           <Banner></Banner>
