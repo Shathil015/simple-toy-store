@@ -7,10 +7,10 @@ const SocialLogin = () => {
     <div>
       <h2 className="font-bold mb-5">Login With</h2>
       <div className="flex flex-col gap-3">
-        <button className="btn btn-secondary btn-outline w-full">
+        <button className="btn btn-secondary text-[13px] btn-outline w-full">
           <FcGoogle size={24} /> Login With Google
         </button>
-        <button className="btn btn-primary btn-outline w-full">
+        <button className="btn btn-primary text-[13px] btn-outline w-full">
           <FaGithub size={20} /> Login With Github
         </button>
       </div>

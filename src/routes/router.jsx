@@ -19,6 +19,18 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path: "/auth",
+    element: <h2>Authentication Layout</h2>,
+  },
+  {
+    path: "/toy",
+    element: <h2>Toy Layout</h2>,
+  },
+  {
+    path: "/*",
+    element: <h2>Error404</h2>,
+  },
 ]);
 
 export default router;
