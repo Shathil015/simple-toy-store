@@ -5,6 +5,8 @@ import CategoriesToy from "../pages/CategoriesToy";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
 import AuthLayout from "../layouts/Home-layout/AuthLayout";
+import ToyDetails from "../pages/ToyDetails";
+import PrivateRoute from "../provider/PrivateRoute";
 
 const router = createBrowserRouter([
   {
@@ -37,8 +39,13 @@ const router = createBrowserRouter([
     ],
   },
   {
-    path: "/toy",
-    element: <h2>Toy Layout</h2>,
+    path: "/product-details/:id",
+    element: (
+      <PrivateRoute>
+        <ToyDetails></ToyDetails>
+      </PrivateRoute>
+    ),
+    loader: () => fetch("/products.json"),
   },
   {
     path: "/*",
