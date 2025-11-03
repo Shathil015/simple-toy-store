@@ -1,9 +1,21 @@
-import React from "react";
-import { NavLink } from "react-router";
+import React, { use } from "react";
+import { Link, NavLink } from "react-router";
 import Logo from "../assets/42187.jpg";
 import User from "../assets/user.png";
+import { AuthContext } from "../provider/AuthProvider";
 
 const Header = () => {
+  const { user, logOut } = use(AuthContext);
+  const handleLogout = () => {
+    console.log("logout clicked");
+    logOut()
+      .then(() => {
+        alert("User logged out successfully");
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
   const links = (
     <>
       <NavLink to="/">Home</NavLink>
@@ -13,6 +25,7 @@ const Header = () => {
   );
   return (
     <div className="navbar bg-base-100 shadow-sm">
+      <div>{user && user.email}</div>
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -46,7 +59,15 @@ const Header = () => {
       </div>
       <div className="navbar-end gap-5">
         <img src={User} alt="" />
-        <a className="btn btn-secondary">Login</a>
+        {user ? (
+          <button onClick={handleLogout} className="btn btn-secondary">
+            LogOut
+          </button>
+        ) : (
+          <Link to="/auth/login" className="btn btn-secondary">
+            Login
+          </Link>
+        )}
       </div>
     </div>
   );
