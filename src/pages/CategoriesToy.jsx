@@ -27,7 +27,7 @@ const CategoriesToy = () => {
       <h2 className="font-bold mb-5">
         Total Toys in this Category: ({categoryToys.length})
       </h2>
-      <div className="grid grid-cols-2 gap-5">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
         {categoryToys.map((toy) => (
           <ToyCard key={toy.id} toy={toy}></ToyCard>
         ))}
